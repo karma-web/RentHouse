@@ -1,0 +1,74 @@
+html,body {
+  height: 100%;
+}
+.layout {
+  height: calc(100% - 56px);
+}
+.header{
+  background-color: #fff;
+  box-shadow:  0 0 10px 0 #aaa;
+  padding: 0 150px;
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  top:0;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 24px;
+  color: #000;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.nav{
+  display: inline-block;
+  width: calc(100% - 200px);
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav .tab{
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0);
+  margin:0 0 0 50px;
+  display: inline-flex;
+}
+.nav .action {
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+}
+.nav .action .mu-flat-button {
+  min-width: 60px;
+  color: #FFA000;
+}
+.nav .action .mu-auto-complete {
+  height: 38px;
+}
+.nav .action .mu-auto-complete .mu-text-field-focus-line {
+  background-color: #FFA000;
+}
+.nav .action .mu-auto-complete .mu-text-field-hint {
+  font-size: 12px;
+}
+.nav .tab button {
+  background-color: #fff;
+  color: #000;
+}
+.nav .mu-tab-link-highlight {
+  background-color: #FFA000;
+}
+.layout .content{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+.layout .footer{
+  padding: 20px 0;
+  text-align: center;
+  height: 100px;
+  border-top: 2px solid #f0f0f0;
+}

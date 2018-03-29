@@ -1,0 +1,48 @@
+.home-content {
+}
+.home-content .carousel {
+  height: 100%;
+}
+.home-content .carousel .ivu-carousel-list {
+  text-align: center;
+  line-height: 500px;
+  font-size: 40px;
+  background-color: #f0f0f0;
+}
+.home-content .carousel i {
+  color: #FFA000;
+}
+.home-content .recommend-house {
+  padding: 0 150px;
+}
+.recommend-house .recommend-title {
+  margin-top: 20px;
+  padding: 0 10px;
+  height: 50px;
+  border-bottom: 2px solid #FFA000;
+}
+.recommend-house  .recommend-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.recommend-content .ivu-card {
+  margin: 15px 30px;
+  cursor: pointer;
+}
+.recommend-content .ivu-card li {
+  margin: 2px 0;
+}
+.recommend-content .ivu-card .price {
+  color: #FFA000;
+  font-size: 20px;
+  font-weight: 600;
+}
+.recommend-content .ivu-card .gray {
+  color: #aaa;
+  font-size: 12px;
+}
+.recommend-content .ivu-card:hover {
+  border: 1px solid #FFA000;
+}

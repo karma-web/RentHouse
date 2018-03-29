@@ -1,0 +1,120 @@
+.search-house {
+  display: flex;
+  flex-direction: row;
+  min-height: 687px;
+  height: 687px;
+}
+.search-house .house-detail {
+  transition: all .45s;
+  flex: 3.5;
+}
+.search-house .house-detail .mu-paper {
+  width: 43%;
+  padding: 66px 10px 10px 10px;
+}
+.search-house .house-detail .mu-paper .carousel i {
+  color: #FFA000;
+}
+.search-house .house-detail .mu-paper .carousel .ivu-carousel-list{
+  height: 50%;
+  text-align: center;
+  line-height: 300px;
+  font-size: 30px;
+}
+.search-house .flex-0 {
+  flex: 0;
+}
+.search-house .house-list {
+  flex: 4;
+  padding: 10px 50px;
+}
+.search-house .list-content {
+  min-height: 670px;
+}
+.search-house .house-list-padding {
+  padding: 10px 200px 10px 180px;
+}
+.house-list .list-item {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+.house-list .list-item:nth-child(2) {
+  border-radius: 0 0 10px 10px;
+  margin-top: 0;
+  border-top: none;
+}
+.house-list .list-item-header {
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0px;
+  background-color: #F9F9F9;
+}
+.house-list .list-item-header span {
+  display: inline-block;
+  width: 70px;
+  height: 28px;
+  text-align: center;
+  line-height: 30px;
+  border-right: 1px solid #ccc;
+  font-size: 12px;
+  cursor: pointer;
+}
+.list-item .list-left {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+}
+.list-item .list-left img {
+  height: 180px;
+  margin:10px;
+}
+.list-item .list-left .list-left-info {
+  margin: 30px 0 0 30px;
+}
+.list-item .list-left .list-left-info p {
+  margin-bottom: 10px;
+}
+.list-left-info .address {
+  font-size: 20px;
+  font-weight: 600;
+}
+.list-left-info .house-feature span {
+  display: inline-block;
+  padding: 4px;
+  font-size: 12px;
+  border: 1px solid #FFA000;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.list-item .list-right {
+  flex: 2;
+  margin: 10px;
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+.flex-1 {
+  flex: 1 !important;
+}
+.list-item .list-right p {
+  margin: 55px 0 10px 0;
+}
+.list-item .list-right p span:nth-child(1) {
+  color: #FFA000;
+  font-size: 30px;
+}
+.list-item .list-right p span:nth-child(2) {
+  font-size: 14px;
+}
+.list-item .list-right button {
+  width: 45% !important;
+}
+.list-item .list-right button:hover {
+  background-color: #FFA000;
+  color: #fff;
+}

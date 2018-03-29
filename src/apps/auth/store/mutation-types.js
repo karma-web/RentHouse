@@ -1,0 +1,5 @@
+export const GET_IMG_CODE = 'GET_IMG_CODE'
+export const GET_VERIFY_CODE = 'GET_VERIFY_DODE'
+export const SET_LANGUAGE = 'SET_LANGUAGE'
+export const SET_LOGIN_ERROR_MSG = 'SET_LOGIN_ERROR_MSG'
+export const SET_SESSION_KEY = 'SET_SESSION_KEY'

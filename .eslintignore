@@ -1,0 +1,4 @@
+build/*.js
+config/*.js
+src/util/locale/*.js
+src/util/locale/*/*.js
